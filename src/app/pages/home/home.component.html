@@ -1,7 +1,11 @@
 <app-menu-title></app-menu-title>
 <div class="container__articles">
-  <div class="articles__main"></div>
-  <app-big-card></app-big-card>
-  <div class="articles__others"></div>
-  <app-small-card></app-small-card>
+  <div class="articles__main">
+    <app-big-card></app-big-card>
+  </div>
+ 
+  <div class="articles__others">
+    <app-small-card *ngFor="let number of [1,2,3]"></app-small-card>
+  </div>
+
 </div>

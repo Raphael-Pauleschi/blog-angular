@@ -5,11 +5,15 @@
 <app-menu-title></app-menu-title>
 <div class="container__articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card photoCover="https://scarletviolet.pokemon.com/_images/news/aug_08_23/p05_01.jpg"
+    photoAlt="Um pokemon verde usando uma yukata e de máscara"
+    cardTitle="Ogerpon, o novo pokemon da dlc" cardDescription="Pokemon Scarlet e Violet em sua atualização mais recente recebeu uma dlc, com um novo lendário relacionado a nova mecanica de tera"></app-big-card>
   </div>
  
   <div class="articles__others">
-    <app-small-card *ngFor="let number of [1,2,3]"></app-small-card>
+    <app-small-card cardTitle="Baxcalibur foi banido de OU" photoCover="https://cdn.segmentnextimages.com/wp-content/uploads/2022/11/Pokemon-SV-Baxcalibur.jpg"></app-small-card>
+    <app-small-card cardTitle="Ursaluna retorna para a National Dex" photoCover="https://pokemongohub.net/wp-content/uploads/2022/07/ursa.jpg"></app-small-card>
+    <app-small-card cardTitle="Mesmo com o declínio da Stall, como Toxapex continua viável?" photoCover="https://staticg.sportskeeda.com/editor/2022/09/e0527-16638082482130-1920.jpg"></app-small-card>
   </div>
 
 </div>

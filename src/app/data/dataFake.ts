@@ -3,7 +3,7 @@ export const dataFake = [
         "id":"1",
         "photo": "https://scarletviolet.pokemon.com/_images/news/aug_08_23/p05_01.jpg",
         "title":"Conheça Orgepon e seus sets",
-        "description":"Com suas máscaras que mudam sua tipagem e seu tera exclusivo, a orgepon aparenta ser uma excelente wallbreaker com seu poderoso stab, podendo também ser utilizada como uma suporte rápida já que tem acesso a knock-off, spikes e encore ",
+        "description":"Com as suas máscaras que mudam sua tipagem e seu tera exclusivo, a orgepon aparenta ser uma excelente wallbreaker com seu poderoso stab, podendo também ser utilizada como uma suporte rápida já que tem acesso a knock-off, spikes e encore ",
     },
     {
         "id":"2",
@@ -15,7 +15,7 @@ export const dataFake = [
         "id":"3",
         "photo": "https://pokemongohub.net/wp-content/uploads/2022/07/ursa.jpg",
         "title":"Ursaluna retorna para a National Dex",
-        "description":"Com o banimento de Margeana trouxe com sigo o declineo de trick room, foi comprovado que ursaluna não era tão problematica como inicialmente era",
+        "description":"Com o banimento de Margeana trouxe consigo o declineo de trick room, foi comprovado que ursaluna não era tão problematica como inicialmente era",
     },
     {
         "id":"4",

@@ -12,6 +12,7 @@ export class SmallCardComponent {
   @Input() photoCover: string = 'https://i.stack.imgur.com/y9DpT.jpg';
   @Input() photoAlt: string = 'placeholder';
   @Input() cardTitle: string = 'Saiu a nova versão do angular! UAU';
+  @Input() Id: string = "0";
 
   constructor() {}
 }

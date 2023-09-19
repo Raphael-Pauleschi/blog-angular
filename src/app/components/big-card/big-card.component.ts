@@ -11,6 +11,6 @@ export class BigCardComponent {
   @Input() cardTitle: string = 'Saiu a nova versão do angular! UAU';
   @Input() cardDescription: String =
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione similique tenetur eaque ad commodi! ';
-
+  @Input() Id:string="0"
   constructor() {}
 }
